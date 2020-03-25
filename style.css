@@ -1,0 +1,84 @@
+body {
+    background: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    color: #CE1141;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+p {
+    color: white;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+#img-caption {
+    font-size: smaller;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #CE1141;
+}
+
+#mainNavbar .navbar-brand {
+    color: #CE1141;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #CE1141;
+    font-weight: bold;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#headingGroup h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 3.75rem;
+}
+
+#tribute-link {
+    color: white;
+    text-decoration: none;
+}
+
+#copyright {
+    color: gray;
+}
+
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.8);
+    transition: background 250ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-size: 3rem;
+        line-height: 2rem;
+    }
+}
